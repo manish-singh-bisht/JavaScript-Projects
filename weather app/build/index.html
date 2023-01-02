@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather app</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="weather.js" defer></script>
+    </head>
+    <body>
+        <main class="flex justify-center bg-gray-500">
+            <section class="flex h-[100vh] w-[50vw] flex-col items-center gap-4 bg-white text-black">
+                <h1 class="mb-[1.2rem] text-center text-5xl font-bold text-yellow-400">Weather</h1>
+
+                <input type="text" class="h-10 w-1/2 rounded-md border-2 px-2 font-semibold" name="" id="searchInput" placeholder="Search..." />
+                <button id="search-btn" class="rounded-md bg-gray-700 px-5 py-3 font-semibold text-white">Search</button>
+                <div id="dataBox" class="h-80 w-1/2 shadow-md">
+                    <h2 id="city-name" class="mb-6 flex h-16 items-center justify-center bg-gray-400 text-3xl"><span>City</span></h2>
+                    <div class="flex flex-col items-center gap-y-2">
+                        <span id="temp" class="text-2xl">Temp:</span>
+                        <span id="min-temp" class="text-2xl">Min-temp:</span>
+                        <span id="max-temp" class="text-2xl">Max-temp:</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
