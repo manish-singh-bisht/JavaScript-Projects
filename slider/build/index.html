@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body class="bg-black">
+        <div class="flex h-[50vh] w-[100vw] items-center justify-center bg-red-300">
+            <div class="slideContainer relative h-[80%] w-[80vw]">
+                <div class="slide absolute flex h-[100%] w-[100%] items-center justify-center bg-yellow-500">Slide1</div>
+                <div class="slide absolute hidden h-[100%] w-[100%] items-center justify-center bg-red-500">Slide2</div>
+                <div class="slide absolute hidden h-[100%] w-[100%] items-center justify-center bg-green-500">Slide3</div>
+            </div>
+            <div class="absolute bottom-[52%]">
+                <button id="0" class="dotsBottom h-4 w-4 rounded-full bg-black"></button>
+                <button id="1" class="dotsBottom h-4 w-4 rounded-full bg-green-400"></button>
+                <button id="2" class="dotsBottom h-4 w-4 rounded-full bg-green-400"></button>
+            </div>
+            <button class="prev absolute left-10 bg-black p-2 text-white">&larr;</button>
+            <button class="next absolute right-10 bg-black p-2 text-white">&rarr;</button>
+        </div>
+    </body>
+</html>
