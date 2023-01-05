@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body class="bg-black">
+        <main class="output grid w-[40vh] grid-cols-4 rounded-lg bg-gray-400">
+            <section class="col-start-1 col-end-[-1] flex flex-col justify-around bg-white">
+                <div class="prev break-all text-end text-red-400"></div>
+                <div class="after break-all text-end text-[1.5rem]"></div>
+            </section>
+            <div class="clear col-span-2 flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">AC</div>
+            <div class="delete col-span-2 flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">Del</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">7</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">8</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">9</div>
+            <div class="operations flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">/</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">4</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">5</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">6</div>
+            <div class="operations flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">*</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">1</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">2</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">3</div>
+            <div class="operations flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">-</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">.</div>
+            <div class="numbers flex select-none items-center justify-center rounded-lg border-2 hover:bg-gray-500 active:bg-gray-700">0</div>
+            <div class="equalsTo flex select-none items-center justify-center rounded-lg border-2 bg-blue-400 hover:bg-blue-600 active:bg-blue-700">=</div>
+            <div class="operations flex select-none items-center justify-center rounded-lg border-2 bg-gray-500 text-white hover:bg-gray-400 active:bg-gray-700">+</div>
+        </main>
+    </body>
+</html>
